@@ -30,7 +30,7 @@ export const sample_foods = [
     origins: ['usa', 'germany'],
     stars: 5,
     imageUrl: 'food-3.jpg',
-    tags: ['FastFood', 'Lunch'],
+    tags: ['FastFood'],
   },
   {
     id: '4',
@@ -41,6 +41,26 @@ export const sample_foods = [
     origins: ['france', 'belgium'],
     stars: 5,
     imageUrl: 'food-4.jpg',
-    tags: ['FastFood', 'Lunch'],
+    tags: ['FastFood'],
   },
+  {
+    id: '5',
+    name: 'Soup',
+    cookTime: '15-20',
+    price: 15,
+    favorite: true,
+    origins: ['france', 'belgium'],
+    stars: 5,
+    imageUrl: 'food-5.jpg',
+    tags: ['SlowFood', 'Lunch', 'Soup'],
+  },
+]
+
+export const sample_tags = [
+  { name: 'All', count: 6},
+  { name: 'FastFood', count: 3},
+  { name: 'Lunch', count: 3},
+  { name: 'Pizza', count: 1},
+  { name: 'SlowFood', count: 2},
+  { name: 'Soup', count: 1}
 ]
