@@ -25,7 +25,7 @@ const FoodPage = () => {
   return (
     <>
       {!food? (<NotFound message="Food not found" linkText="Back to HomePage"/>) : (<div className={classes.container}>
-        <img className={classes.image} src={`/foods/${food.imageUrl}`} alt={food.name} />
+        <img className={classes.image} src={`${food.imageUrl}`} alt={food.name} />
         <div className={classes.details}>
           <div className={classes.header}>
             <span className={classes.name}>{food.name}</span>
