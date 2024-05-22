@@ -64,3 +64,22 @@ export const sample_tags = [
   { name: 'SlowFood', count: 2},
   { name: 'Soup', count: 1}
 ]
+
+export const sample_users = [
+  {
+    id: 1,
+    name: "John Doe",
+    email: "johndoe@gmail.com",
+    password: '12345',
+    address: "Bishkek",
+    isAdmin: false
+  },
+  {
+    id: 2,
+    name: "Jane Doe",
+    email: "janedoe@gmail.com",
+    password: '12345',
+    address: "Almaty",
+    isAdmin: true
+  },
+]
