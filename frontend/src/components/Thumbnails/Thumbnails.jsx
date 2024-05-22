@@ -1,10 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-// import Price from '../Price/Price';
-// import StarRating from '../StarRating/StarRating';
-import classes from './thumbnails.module.css';
-import StarRating from '../StarRating/StarRating';
 import Price from '../Price/Price';
+import StarRating from '../StarRating/StarRating';
+import classes from './thumbnails.module.css';
 
 export default function Thumbnails({ foods }) {
   return (
